@@ -1,6 +1,19 @@
 body {
     padding: 0 50px;
 }
+
+h1 {
+    background: linear-gradient(40deg, blue, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
 .wrapper {
     max-width: 900px;
     min-height: 150px;
@@ -107,7 +120,7 @@ position: relative;
       transform: translateY(0);
     }
     100% {
-      transform: translateY(100px);
+      transform: translateY(20px);
     }
   }
   
